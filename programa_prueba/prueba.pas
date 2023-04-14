@@ -1,11 +1,28 @@
 program prueba1;
 var
-	entero : integer;
+	signo : char;
+	i,entero,T : integer;
 BEGIN
-	entero := 0;
-	for entero :=0 to 10 do
-	BEGIN
-	writeln(entero);
-	END
+
+	readln(T);
+	
+	for i:=1 to 1 do
+	begin
+	
+	readln(entero);
+	
+	{
+	if(signo='+')then
+		T:=T+entero;
+			
+	if(signo='-')then
+		T:=T-entero;
+	}
+	
+	T:=T - entero;
+	
+	end;
+
+	writeln(T);
 END.
 
